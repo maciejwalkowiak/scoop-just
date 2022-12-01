@@ -6,7 +6,7 @@
   "url": "https://github.com/maciejwalkowiak/justt/releases/download/0.5.0/just-0.5.0-windows-x86_64.zip",
   "hash": "sha256:63eb772a42416f6a7b84fe1f96552f44684a09814d7ee867bcb0b61771e802be",
   "env_add_path": "bin",
-  "bin": "just.exe"
+  "bin": "just.exe",
   "checkver": {
     "url": "https://github.com/maciejwalkowiak/justt/releases/latest",
     "re": "v([\\d.]+).zip"
