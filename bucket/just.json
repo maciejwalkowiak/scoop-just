@@ -1,10 +1,10 @@
 {
   "homepage": "https://github.com/maciejwalkowiak/just",
   "description": "Command Line Spring Boot runner",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "license": "Apache License, Version 2.0",
-  "url": "https://github.com/maciejwalkowiak/just/releases/download/0.8.0/just-0.8.0-windows-x86_64.zip",
-  "hash": "sha256:78265e7e3b15ee1891abb6b2c93d281b33a2ac7617bcbb949928fe85b6f26248",
+  "url": "https://github.com/maciejwalkowiak/just/releases/download/0.9.0/just-0.9.0-windows-x86_64.zip",
+  "hash": "sha256:ecce0101bd983d77884859f63435eda441dc091414222d8d5bfac44a1f0bdb3a",
   "env_add_path": "bin",
   "bin": "just.exe",
   "checkver": {
@@ -17,5 +17,8 @@
     "hash": {
       "url": "$url.sha256"
     }
-  }
+  },
+  "post_install": [
+	"echo \"Just collects anonymous usage data. If you don't agree, just don't use it.\""
+  ]
 }

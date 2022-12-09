@@ -1,6 +1,6 @@
-# Just Scoop Manifests
+# Scoop Manifests
 
-## How do I install **Just**?
+## How do I install these tools?
 
 1. Install [scoop](https://github.com/lukesampson/scoop).
 
@@ -10,8 +10,8 @@
 scoop bucket add maciejwalkowiak https://github.com/maciejwalkowiak/scoop-just.git
 ```
 
-3. Install **Just** via `scoop install`:
+3. Install tools via `scoop install`:
 
 ```
-scoop install just
+scoop install <toolName>
 ```
